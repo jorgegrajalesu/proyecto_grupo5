@@ -4,12 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rush</title>
+    <title>Proyecto Grupo 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+
 </head>
 <body>
-    <div class="home-wrapper">
-        <img src="images/logo.gif" alt="">
-    </div>
+
+    <!-- menu y encabezado -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 bg-light" id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span class="fs-5 text-primary fw-bold">
+                <img src="/images/logo.png" alt="logo" class="logo">
+            </span>            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Marcas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="samsug.html">Samsug</a></li>
+                  <li><a class="dropdown-item" href="lg.html">LG</a></li>
+                  <li><a class="dropdown-item" href="sony.html">Sony</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link">Contacto</a>
+              </li>
+              <!-- redes -->
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fab fa-whatsapp"></i></a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Suscripción</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="/images/slide1.jpg" class="d-block w-100 slideimg" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/slide2.jpg" class="d-block w-100 slideimg" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/slide3.jpg" class="d-block w-100 slideimg" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>

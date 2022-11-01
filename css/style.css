@@ -1,0 +1,29 @@
+/* fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* #menu{
+    background-color: #a82c23 !important;
+} */
+
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+#menu a{
+    color: #3f3d3d;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.slideimg{
+    height: 570px;
+}
