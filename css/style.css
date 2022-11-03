@@ -27,3 +27,14 @@ body{
 .slideimg{
     height: 570px;
 }
+
+/* noticias o novedades */
+#noticias{
+    background-color: #000;
+}
+
+#noticias .titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
