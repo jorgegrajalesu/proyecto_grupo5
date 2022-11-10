@@ -98,10 +98,9 @@ body{
     max-width: 300px;
     padding-left: 1em;/*1em son 10px*/
     grid-column: 1/3;
-    /* grid-template-columns: max-content; */
-
-
+    grid-row-start: 1;
 }
-/* falta por terminar el footer*/
+
+
 
 
