@@ -101,6 +101,58 @@ body{
     grid-row-start: 1;
 }
 
+.footer__cta-ftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 70px 0;
+}
 
+.footer__cta-ftcontainer:after{
+    position: absolute;
+    background-color: rgba(219, 219, 219, 0.748);
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+.footer__cta-ftcontainer .cta__txt{
+    color: #fff;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+    padding: 0 15px;
+}
 
+.footer__cta-ftcontainer .cta__btn{
+    color: #fff;
+    padding: 26px 60px;
+    border: 2px solid rgb(79, 7, 7);
+    border-radius: 500px;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: all .4s ease-in-out;
+}
 
+.footer__cta-ftcontainer .cta__btn:hover{
+    color: #fff;
+    background-color: #480404;
+    border-color: rgb(79, 3, 3);
+}
+
+.footer__link{
+    list-style: none;
+    font-size: 14px;
+    margin: 1em 0;
+    padding: 5px 0 5px .5em;
+}
