@@ -220,3 +220,13 @@ footer{
 .footer__link:nth-child(3){
     border-left: 2px solid #0daeda;
 }
+
+/* pagina nosotros */
+#nosotros{
+    background-color: #fff;
+}
+#nosotros .titulo{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
